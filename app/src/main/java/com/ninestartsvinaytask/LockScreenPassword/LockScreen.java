@@ -133,7 +133,7 @@ public class LockScreen extends AppCompatActivity implements View.OnClickListene
          newValue = pin1_et.getText().toString()+pin2_et.getText().toString()+pin3_et.getText().toString()+pin4_et.getText().toString();
         if (newValue.length()==4)
         {
-            System.out.println("newVlaue***"+newValue);
+            System.out.println("newVlauekas***"+newValue);
         }
 
     }
