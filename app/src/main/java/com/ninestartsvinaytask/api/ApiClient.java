@@ -5,7 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
     //https://jsonplaceholder.typicode.com/photos
-    public static final String BASE_URL = "https://jsonplaceholder.typicode.com/";
+    public static final String BASE_URL = "https://api.themoviedb.org/3/";
+    //public static final String BASE_URL = "https://jsonplaceholder.typicode.com/";
 
     private static Retrofit retrofit = null;
 
